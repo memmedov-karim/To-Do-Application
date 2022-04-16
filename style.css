@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Serif:wght@500&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    width: 336px;
+    
+    border: 1px solid black;
+    margin-left: 450px;
+    margin-top: 50px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding-bottom: 19px;
+}
+.information{
+    width: 336px;
+    margin-left: 450px;
+    border: 1px solid black;
+    margin-top: 50px;
+    font-family: 'Roboto';
+   
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container h1{
+    
+    width: 198px;
+    height: 34px;
+    margin-left: 99px;
+    margin-top: 13px;
+    margin-bottom: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.yellow{
+    width: 100%;
+    height: 28px;
+    background-color: yellow;
+}
+.inp{
+    margin-left: 28px;
+}
+.inp .data{
+    width: 286px;
+    height: 40px;
+    border-radius: 7px;
+    display: none;
+    
+ 
+}
+.srch{
+    display: none;
+    width: 200px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    height: 25px;
+    outline: none;
+    margin-left: 40px;
+}
+ul{
+    width: 229px;
+    
+    
+}
+ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    width: 60%;
+    
+}
+.delete{
+    display: none;
+}
+.my_list{
+    display: flex;
+    justify-content: space-around;
+}
+.my_list span{
+    margin-left: 37%;
+
+}
+.data_list{
+    border:1px solid black;
+    border-radius: 10px;
+    width: 286px;
+    padding-left: 27px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.inp .delete{
+    min-width: 7px;
+    height: 5px;
+    border: 0.2px solid black;
+    border-radius: 50%;
+}
+.warning{
+    display: none;
+    color: red;
+}
+.delete_from_list{
+    display: inline;
+    text-align: center;
+    border: 0.2px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+.edit{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.imgg{
+    cursor: pointer;
+    
+    margin-left: 90%;
+    margin-bottom: 11px;
+    display: none;
+}
+.imgg1{
+    cursor: pointer;
+    margin-bottom: 11px;
+    display: none;
+    margin-left: 78%;
+    margin-top: -29px;
+}
+
+.button1{
+    position: absolute;
+    left: 92px;
+    height: 42px;
+    margin-top: 18px;
+    width: 50px;
+    border-radius: 20px;
+    background-color: rgb(129, 95, 161);
+    border: none;
+    cursor: pointer;
+}
+.button2{
+    width: 150px;
+    height: 42px;
+    margin-top: 18px;
+    margin-left: 92px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
